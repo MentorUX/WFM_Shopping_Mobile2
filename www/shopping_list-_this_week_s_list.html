@@ -1,0 +1,888 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping List- This Week's List</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="data/apple-touch-icon.png" rel="apple-touch-icon"/>
+    <link href="data/startup-iphone.png" rel="apple-touch-startup-image" media="screen and (max-device-width: 320px)"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/shopping_list-_this_week_s_list/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototype/axQuery.js"></script>
+    <script src="resources/scripts/prototype/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/prototype/annotation.js"></script>
+    <script src="resources/scripts/prototype/axQuery.std.js"></script>
+    <script src="resources/scripts/prototype/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/prototype/events.js"></script>
+    <script src="resources/scripts/prototype/action.js"></script>
+    <script src="resources/scripts/prototype/expr.js"></script>
+    <script src="resources/scripts/prototype/geometry.js"></script>
+    <script src="resources/scripts/prototype/flyout.js"></script>
+    <script src="resources/scripts/prototype/ie.js"></script>
+    <script src="resources/scripts/prototype/model.js"></script>
+    <script src="resources/scripts/prototype/repeater.js"></script>
+    <script src="resources/scripts/prototype/sto.js"></script>
+    <script src="resources/scripts/prototype/utils.temp.js"></script>
+    <script src="resources/scripts/prototype/variables.js"></script>
+    <script src="resources/scripts/prototype/drag.js"></script>
+    <script src="resources/scripts/prototype/move.js"></script>
+    <script src="resources/scripts/prototype/visibility.js"></script>
+    <script src="resources/scripts/prototype/style.js"></script>
+    <script src="resources/scripts/prototype/adaptive.js"></script>
+    <script src="resources/scripts/prototype/tree.js"></script>
+    <script src="resources/scripts/prototype/init.temp.js"></script>
+    <script src="files/shopping_list-_this_week_s_list/data.js"></script>
+    <script src="resources/scripts/prototype/legacy.js"></script>
+    <script src="resources/scripts/prototype/viewer.js"></script>
+  </head>
+  <body>
+
+    <!-- MegaPanel (Dynamic Panel) -->
+    <div id="u0" class="ax_dynamic_panel" data-label="MegaPanel">
+      <div id="u0_state0" class="panel_state" data-label="State1">
+
+        <!-- Unnamed (Shape) -->
+        <div id="u1" class="ax_shape">
+          <img id="u1_img" class="img " src="images/shopping_list-_this_week_s_list/u1.png"/>
+          <!-- Unnamed () -->
+          <div id="u2" class="text"></div>
+        </div>
+
+        <!-- Shopping List (Header) -->
+
+        <!-- Unnamed (Shape) -->
+        <div id="u4" class="ax_shape">
+          <img id="u4_img" class="img " src="images/home-_select_a_store/u5.png"/>
+          <!-- Unnamed () -->
+          <div id="u5" class="text"></div>
+        </div>
+
+        <!-- Your Store (Dynamic Panel) -->
+        <div id="u6" class="ax_dynamic_panel" data-label="Your Store">
+          <div id="u6_state0" class="panel_state" data-label="None">
+          </div>
+          <div id="u6_state1" class="panel_state" data-label="Lamar">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u7" class="ax_shape">
+              <img id="u7_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u8" class="text">
+                <p><span style="text-decoration:underline;">Your Store is Lamar</span></p>
+              </div>
+            </div>
+          </div>
+          <div id="u6_state2" class="panel_state" data-label="Gateway">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u9" class="ax_shape">
+              <img id="u9_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u10" class="text">
+                <p><span style="text-decoration:underline;">Your Store is Gateway</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Home (Shape) -->
+        <div id="u11" class="ax_shape" data-label="Home">
+          <img id="u11_img" class="img " src="images/home-_select_a_store/home_u12.png"/>
+          <!-- Unnamed () -->
+          <div id="u12" class="text">
+            <p><span>HOME</span></p>
+          </div>
+        </div>
+
+        <!-- Recipes (Shape) -->
+        <div id="u13" class="ax_shape" data-label="Recipes">
+          <img id="u13_img" class="img " src="images/home-_select_a_store/recipes_u14.png"/>
+          <!-- Unnamed () -->
+          <div id="u14" class="text">
+            <p><span>RECIPES</span></p>
+          </div>
+        </div>
+
+        <!-- Deals (Shape) -->
+        <div id="u15" class="ax_shape" data-label="Deals">
+          <img id="u15_img" class="img " src="images/home-_select_a_store/deals_u16.png"/>
+          <!-- Unnamed () -->
+          <div id="u16" class="text">
+            <p><span>DEALS</span></p>
+          </div>
+        </div>
+
+        <!-- Shopping List (Shape) -->
+        <div id="u17" class="ax_shape" data-label="Shopping List">
+          <img id="u17_img" class="img " src="images/home-_select_a_store/deals_u16.png"/>
+          <!-- Unnamed () -->
+          <div id="u18" class="text">
+            <p><span>SHOPPING LIST</span></p>
+          </div>
+        </div>
+
+        <!-- More/Less (Dynamic Panel) -->
+        <div id="u19" class="ax_dynamic_panel" data-label="More/Less">
+          <div id="u19_state0" class="panel_state" data-label="More">
+
+            <!-- More (Shape) -->
+            <div id="u20" class="ax_shape" data-label="More">
+              <img id="u20_img" class="img " src="images/home-_select_a_store/home_u12.png"/>
+              <!-- Unnamed () -->
+              <div id="u21" class="text">
+                <p><span>MORE&nbsp;&nbsp; </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u22" class="ax_shape">
+              <img id="u22_img" class="img " src="images/home-_select_a_store/u23.png"/>
+              <!-- Unnamed () -->
+              <div id="u23" class="text"></div>
+            </div>
+          </div>
+          <div id="u19_state1" class="panel_state" data-label="Less">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u24" class="ax_shape">
+              <img id="u24_img" class="img " src="images/home-_select_a_store/home_u12_selected.png"/>
+              <!-- Unnamed () -->
+              <div id="u25" class="text">
+                <p><span>LESS&nbsp;&nbsp; </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u26" class="ax_shape">
+              <img id="u26_img" class="img " src="images/home-_select_a_store/u27.png"/>
+              <!-- Unnamed () -->
+              <div id="u27" class="text"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u28" class="ax_image">
+          <img id="u28_img" class="img " src="images/home-_select_a_store/u29.png"/>
+          <!-- Unnamed () -->
+          <div id="u29" class="text"></div>
+        </div>
+
+        <!-- Unnamed (Vertical Line) -->
+        <div id="u30" class="ax_vertical_line">
+          <img id="u30_start" class="img " src="resources/images/transparent.gif" alt="u30_start"/>
+          <img id="u30_end" class="img " src="resources/images/transparent.gif" alt="u30_end"/>
+          <img id="u30_line" class="img " src="images/home-_select_a_store/u31_line.png" alt="u30_line"/>
+        </div>
+
+        <!-- Unnamed (Vertical Line) -->
+        <div id="u31" class="ax_vertical_line">
+          <img id="u31_start" class="img " src="resources/images/transparent.gif" alt="u31_start"/>
+          <img id="u31_end" class="img " src="resources/images/transparent.gif" alt="u31_end"/>
+          <img id="u31_line" class="img " src="images/home-_select_a_store/u31_line.png" alt="u31_line"/>
+        </div>
+
+        <!-- Unnamed (Vertical Line) -->
+        <div id="u32" class="ax_vertical_line">
+          <img id="u32_start" class="img " src="resources/images/transparent.gif" alt="u32_start"/>
+          <img id="u32_end" class="img " src="resources/images/transparent.gif" alt="u32_end"/>
+          <img id="u32_line" class="img " src="images/home-_select_a_store/u31_line.png" alt="u32_line"/>
+        </div>
+
+        <!-- Unnamed (Vertical Line) -->
+        <div id="u33" class="ax_vertical_line">
+          <img id="u33_start" class="img " src="resources/images/transparent.gif" alt="u33_start"/>
+          <img id="u33_end" class="img " src="resources/images/transparent.gif" alt="u33_end"/>
+          <img id="u33_line" class="img " src="images/home-_select_a_store/u31_line.png" alt="u33_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u34" class="ax_shape">
+          <img id="u34_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u35" class="text">
+            <p><span style="text-decoration:underline;">Sign In or </span><span style="text-decoration:underline;">Create an Account</span></p>
+          </div>
+        </div>
+
+        <!-- Search Bar (Dynamic Panel) -->
+        <div id="u36" class="ax_dynamic_panel" data-label="Search Bar">
+          <div id="u36_state0" class="panel_state" data-label="Closed">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u37" class="ax_shape">
+              <img id="u37_img" class="img " src="images/home-_select_a_store/u38.png"/>
+              <!-- Unnamed () -->
+              <div id="u38" class="text">
+                <p><span>Search</span></p>
+              </div>
+            </div>
+          </div>
+          <div id="u36_state1" class="panel_state" data-label="Open">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u39" class="ax_shape">
+              <img id="u39_img" class="img " src="images/home-_select_a_store/u40.png"/>
+              <!-- Unnamed () -->
+              <div id="u40" class="text">
+                <p><span>Search</span></p>
+              </div>
+            </div>
+
+            <!-- Search Field (Text Field) -->
+            <div id="u41" class="ax_text_field">
+              <input id="u41_input" type="text" value="enter text..." data-label="Search Field"/>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map Pin (Dynamic Panel) -->
+        <div id="u42" class="ax_dynamic_panel" data-label="Map Pin">
+          <div id="u42_state0" class="panel_state" data-label="Off">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u43" class="ax_shape">
+              <img id="u43_img" class="img " src="images/home-_select_a_store/u38.png"/>
+              <!-- Unnamed () -->
+              <div id="u44" class="text">
+                <p><span>Stores</span></p>
+              </div>
+            </div>
+          </div>
+          <div id="u42_state1" class="panel_state" data-label="On">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u45" class="ax_shape">
+              <img id="u45_img" class="img " src="images/home-_select_a_store/u46.png"/>
+              <!-- Unnamed () -->
+              <div id="u46" class="text">
+                <p><span>Stores</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- More (Dynamic Panel) -->
+        <div id="u47" class="ax_dynamic_panel" data-label="More">
+          <div id="u47_state0" class="panel_state" data-label="State1">
+
+            <!-- Special Diets (Shape) -->
+            <div id="u48" class="ax_shape" data-label="Special Diets">
+              <img id="u48_img" class="img " src="images/home-_select_a_store/special_diets_u49.png"/>
+              <!-- Unnamed () -->
+              <div id="u49" class="text">
+                <p><span>SPECIAL DIETS</span></p>
+              </div>
+            </div>
+
+            <!-- Product FAQs (Shape) -->
+            <div id="u50" class="ax_shape" data-label="Product FAQs">
+              <img id="u50_img" class="img " src="images/home-_select_a_store/special_diets_u49.png"/>
+              <!-- Unnamed () -->
+              <div id="u51" class="text">
+                <p><span>PRODUCT FAQs</span></p>
+              </div>
+            </div>
+
+            <!-- Our Apps (Shape) -->
+            <div id="u52" class="ax_shape" data-label="Our Apps">
+              <img id="u52_img" class="img " src="images/home-_select_a_store/special_diets_u49.png"/>
+              <!-- Unnamed () -->
+              <div id="u53" class="text">
+                <p><span>OUR APPS</span></p>
+              </div>
+            </div>
+
+            <!-- Careers (Shape) -->
+            <div id="u54" class="ax_shape" data-label="Careers">
+              <img id="u54_img" class="img " src="images/home-_select_a_store/special_diets_u49.png"/>
+              <!-- Unnamed () -->
+              <div id="u55" class="text">
+                <p><span>CAREERS</span></p>
+              </div>
+            </div>
+
+            <!-- Blog (Shape) -->
+            <div id="u56" class="ax_shape" data-label="Blog">
+              <img id="u56_img" class="img " src="images/home-_select_a_store/special_diets_u49.png"/>
+              <!-- Unnamed () -->
+              <div id="u57" class="text">
+                <p><span>BLOG</span></p>
+              </div>
+            </div>
+
+            <!-- Full Site (Shape) -->
+            <div id="u58" class="ax_shape" data-label="Full Site">
+              <img id="u58_img" class="img " src="images/home-_select_a_store/special_diets_u49.png"/>
+              <!-- Unnamed () -->
+              <div id="u59" class="text">
+                <p><span>FULL SITE</span></p>
+              </div>
+            </div>
+
+            <!-- Pellentesque (Shape) -->
+            <div id="u60" class="ax_shape" data-label="Pellentesque">
+              <img id="u60_img" class="img " src="images/home-_select_a_store/special_diets_u49.png"/>
+              <!-- Unnamed () -->
+              <div id="u61" class="text">
+                <p><span>ONLINE ORDERING</span></p>
+              </div>
+            </div>
+
+            <!-- Interger Elementum (Shape) -->
+            <div id="u62" class="ax_shape" data-label="Interger Elementum">
+              <img id="u62_img" class="img " src="images/home-_select_a_store/special_diets_u49.png"/>
+              <!-- Unnamed () -->
+              <div id="u63" class="text">
+                <p><span>FUTURE LINK TBD</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u64" class="ax_shape">
+              <img id="u64_img" class="img " src="images/home-_select_a_store/u65.png"/>
+              <!-- Unnamed () -->
+              <div id="u65" class="text"></div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u66" class="ax_shape">
+              <img id="u66_img" class="img " src="images/home-_select_a_store/u67.png"/>
+              <!-- Unnamed () -->
+              <div id="u67" class="text"></div>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u68" class="ax_horizontal_line">
+              <img id="u68_start" class="img " src="resources/images/transparent.gif" alt="u68_start"/>
+              <img id="u68_end" class="img " src="resources/images/transparent.gif" alt="u68_end"/>
+              <img id="u68_line" class="img " src="images/home-_select_a_store/u69_line.png" alt="u68_line"/>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u69" class="ax_horizontal_line">
+              <img id="u69_start" class="img " src="resources/images/transparent.gif" alt="u69_start"/>
+              <img id="u69_end" class="img " src="resources/images/transparent.gif" alt="u69_end"/>
+              <img id="u69_line" class="img " src="images/home-_select_a_store/u69_line.png" alt="u69_line"/>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u70" class="ax_horizontal_line">
+              <img id="u70_start" class="img " src="resources/images/transparent.gif" alt="u70_start"/>
+              <img id="u70_end" class="img " src="resources/images/transparent.gif" alt="u70_end"/>
+              <img id="u70_line" class="img " src="images/home-_select_a_store/u69_line.png" alt="u70_line"/>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u71" class="ax_horizontal_line">
+              <img id="u71_start" class="img " src="resources/images/transparent.gif" alt="u71_start"/>
+              <img id="u71_end" class="img " src="resources/images/transparent.gif" alt="u71_end"/>
+              <img id="u71_line" class="img " src="images/home-_select_a_store/u69_line.png" alt="u71_line"/>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u72" class="ax_horizontal_line">
+              <img id="u72_start" class="img " src="resources/images/transparent.gif" alt="u72_start"/>
+              <img id="u72_end" class="img " src="resources/images/transparent.gif" alt="u72_end"/>
+              <img id="u72_line" class="img " src="images/home-_select_a_store/u69_line.png" alt="u72_line"/>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u73" class="ax_horizontal_line">
+              <img id="u73_start" class="img " src="resources/images/transparent.gif" alt="u73_start"/>
+              <img id="u73_end" class="img " src="resources/images/transparent.gif" alt="u73_end"/>
+              <img id="u73_line" class="img " src="images/home-_select_a_store/u69_line.png" alt="u73_line"/>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u74" class="ax_horizontal_line">
+              <img id="u74_start" class="img " src="resources/images/transparent.gif" alt="u74_start"/>
+              <img id="u74_end" class="img " src="resources/images/transparent.gif" alt="u74_end"/>
+              <img id="u74_line" class="img " src="images/home-_select_a_store/u69_line.png" alt="u74_line"/>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u75" class="ax_horizontal_line">
+              <img id="u75_start" class="img " src="resources/images/transparent.gif" alt="u75_start"/>
+              <img id="u75_end" class="img " src="resources/images/transparent.gif" alt="u75_end"/>
+              <img id="u75_line" class="img " src="images/home-_select_a_store/u69_line.png" alt="u75_line"/>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u76" class="ax_horizontal_line">
+              <img id="u76_start" class="img " src="resources/images/transparent.gif" alt="u76_start"/>
+              <img id="u76_end" class="img " src="resources/images/transparent.gif" alt="u76_end"/>
+              <img id="u76_line" class="img " src="images/home-_select_a_store/u69_line.png" alt="u76_line"/>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u77" class="ax_shape">
+          <img id="u77_img" class="img " src="images/shopping_list-_this_week_s_list/u77.png"/>
+          <!-- Unnamed () -->
+          <div id="u78" class="text"></div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u79" class="ax_shape">
+          <img id="u79_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u80" class="text">
+            <p><span>THIS WEEKS LIST</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u81" class="ax_shape">
+          <img id="u81_img" class="img " src="images/store_results/u205.png"/>
+          <!-- Unnamed () -->
+          <div id="u82" class="text">
+            <p><span>BACK</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u83" class="ax_horizontal_line">
+          <img id="u83_start" class="img " src="resources/images/transparent.gif" alt="u83_start"/>
+          <img id="u83_end" class="img " src="resources/images/transparent.gif" alt="u83_end"/>
+          <img id="u83_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u83_line"/>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u84" class="ax_horizontal_line">
+          <img id="u84_start" class="img " src="resources/images/transparent.gif" alt="u84_start"/>
+          <img id="u84_end" class="img " src="resources/images/transparent.gif" alt="u84_end"/>
+          <img id="u84_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u84_line"/>
+        </div>
+
+        <!-- Edit Corn (Dynamic Panel) -->
+        <div id="u85" class="ax_dynamic_panel" data-label="Edit Corn">
+          <div id="u85_state0" class="panel_state" data-label="Static">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u86" class="ax_shape">
+              <img id="u86_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u87" class="text">
+                <p><span>Corn</span></p>
+              </div>
+            </div>
+          </div>
+          <div id="u85_state1" class="panel_state" data-label="Edit">
+
+            <!-- Unnamed (Text Field) -->
+            <div id="u88" class="ax_text_field">
+              <input id="u88_input" type="text" value="Corn"/>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u89" class="ax_shape">
+              <img id="u89_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u90" class="text">
+                <p><span style="text-decoration:underline;">Delete</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u91" class="ax_horizontal_line">
+          <img id="u91_start" class="img " src="resources/images/transparent.gif" alt="u91_start"/>
+          <img id="u91_end" class="img " src="resources/images/transparent.gif" alt="u91_end"/>
+          <img id="u91_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u91_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u92" class="ax_shape">
+          <img id="u92_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u93" class="text">
+            <p><span>Milk</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u94" class="ax_horizontal_line">
+          <img id="u94_start" class="img " src="resources/images/transparent.gif" alt="u94_start"/>
+          <img id="u94_end" class="img " src="resources/images/transparent.gif" alt="u94_end"/>
+          <img id="u94_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u94_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u95" class="ax_shape">
+          <img id="u95_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u96" class="text">
+            <p><span>Eggs</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u97" class="ax_horizontal_line">
+          <img id="u97_start" class="img " src="resources/images/transparent.gif" alt="u97_start"/>
+          <img id="u97_end" class="img " src="resources/images/transparent.gif" alt="u97_end"/>
+          <img id="u97_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u97_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u98" class="ax_shape">
+          <img id="u98_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u99" class="text">
+            <p><span>Bread</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u100" class="ax_horizontal_line">
+          <img id="u100_start" class="img " src="resources/images/transparent.gif" alt="u100_start"/>
+          <img id="u100_end" class="img " src="resources/images/transparent.gif" alt="u100_end"/>
+          <img id="u100_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u100_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u101" class="ax_shape">
+          <img id="u101_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u102" class="text">
+            <p><span>Soup</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u103" class="ax_horizontal_line">
+          <img id="u103_start" class="img " src="resources/images/transparent.gif" alt="u103_start"/>
+          <img id="u103_end" class="img " src="resources/images/transparent.gif" alt="u103_end"/>
+          <img id="u103_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u103_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u104" class="ax_shape">
+          <img id="u104_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u105" class="text">
+            <p><span>Apples</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u106" class="ax_horizontal_line">
+          <img id="u106_start" class="img " src="resources/images/transparent.gif" alt="u106_start"/>
+          <img id="u106_end" class="img " src="resources/images/transparent.gif" alt="u106_end"/>
+          <img id="u106_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u106_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u107" class="ax_shape">
+          <img id="u107_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u108" class="text">
+            <p><span>Oranges</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u109" class="ax_horizontal_line">
+          <img id="u109_start" class="img " src="resources/images/transparent.gif" alt="u109_start"/>
+          <img id="u109_end" class="img " src="resources/images/transparent.gif" alt="u109_end"/>
+          <img id="u109_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u109_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u110" class="ax_shape">
+          <img id="u110_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u111" class="text">
+            <p><span>Coffee</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u112" class="ax_horizontal_line">
+          <img id="u112_start" class="img " src="resources/images/transparent.gif" alt="u112_start"/>
+          <img id="u112_end" class="img " src="resources/images/transparent.gif" alt="u112_end"/>
+          <img id="u112_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u112_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u113" class="ax_shape">
+          <img id="u113_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u114" class="text">
+            <p><span>Wine</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u115" class="ax_horizontal_line">
+          <img id="u115_start" class="img " src="resources/images/transparent.gif" alt="u115_start"/>
+          <img id="u115_end" class="img " src="resources/images/transparent.gif" alt="u115_end"/>
+          <img id="u115_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u115_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u116" class="ax_shape">
+          <img id="u116_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u117" class="text">
+            <p><span>Flour</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u118" class="ax_horizontal_line">
+          <img id="u118_start" class="img " src="resources/images/transparent.gif" alt="u118_start"/>
+          <img id="u118_end" class="img " src="resources/images/transparent.gif" alt="u118_end"/>
+          <img id="u118_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u118_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u119" class="ax_shape">
+          <img id="u119_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u120" class="text">
+            <p><span>Cream</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u121" class="ax_horizontal_line">
+          <img id="u121_start" class="img " src="resources/images/transparent.gif" alt="u121_start"/>
+          <img id="u121_end" class="img " src="resources/images/transparent.gif" alt="u121_end"/>
+          <img id="u121_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u121_line"/>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u122" class="ax_shape">
+          <img id="u122_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u123" class="text">
+            <p><span>Carrots</span></p>
+          </div>
+        </div>
+
+        <!-- Add (Dynamic Panel) -->
+        <div id="u124" class="ax_dynamic_panel" data-label="Add">
+          <div id="u124_state0" class="panel_state" data-label="Before">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u125" class="ax_shape">
+              <img id="u125_img" class="img " src="images/shopping_list-_this_week_s_list/u125.png"/>
+              <!-- Unnamed () -->
+              <div id="u126" class="text"></div>
+            </div>
+
+            <!-- Shopping List (Footer) -->
+
+            <!-- Footer (Dynamic Panel) -->
+            <div id="u128" class="ax_dynamic_panel" data-label="Footer">
+              <div id="u128_state0" class="panel_state" data-label="State1">
+
+                <!-- Unnamed (Shape) -->
+                <div id="u129" class="ax_shape">
+                  <img id="u129_img" class="img " src="images/home-_select_a_store/u156.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u130" class="text"></div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u131" class="ax_shape">
+                  <img id="u131_img" class="img " src="resources/images/transparent.gif"/>
+                  <!-- Unnamed () -->
+                  <div id="u132" class="text">
+                    <p><span>Connect with us:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u133" class="ax_shape">
+                  <img id="u133_img" class="img " src="resources/images/transparent.gif"/>
+                  <!-- Unnamed () -->
+                  <div id="u134" class="text">
+                    <p><span>PRIVACY</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u135" class="ax_shape">
+                  <img id="u135_img" class="img " src="resources/images/transparent.gif"/>
+                  <!-- Unnamed () -->
+                  <div id="u136" class="text">
+                    <p><span>TERMS</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Image) -->
+                <div id="u137" class="ax_image">
+                  <img id="u137_img" class="img " src="images/home-_select_a_store/u164.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u138" class="text"></div>
+                </div>
+
+                <!-- Unnamed (Horizontal Line) -->
+                <div id="u139" class="ax_horizontal_line">
+                  <img id="u139_start" class="img " src="resources/images/transparent.gif" alt="u139_start"/>
+                  <img id="u139_end" class="img " src="resources/images/transparent.gif" alt="u139_end"/>
+                  <img id="u139_line" class="img " src="images/home-_select_a_store/u166_line.png" alt="u139_line"/>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u140" class="ax_shape">
+                  <img id="u140_img" class="img " src="resources/images/transparent.gif"/>
+                  <!-- Unnamed () -->
+                  <div id="u141" class="text">
+                    <p><span>CONTACT US</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u142" class="ax_shape">
+              <img id="u142_img" class="img " src="images/shopping_list-_this_week_s_list/u142.png"/>
+              <!-- Unnamed () -->
+              <div id="u143" class="text"></div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u144" class="ax_shape">
+              <img id="u144_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u145" class="text">
+                <p><span style="text-decoration:underline;">+ Add</span></p>
+              </div>
+            </div>
+          </div>
+          <div id="u124_state1" class="panel_state" data-label="After">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u146" class="ax_shape">
+              <img id="u146_img" class="img " src="images/shopping_list-_this_week_s_list/u146.png"/>
+              <!-- Unnamed () -->
+              <div id="u147" class="text"></div>
+            </div>
+
+            <!-- Shopping List (Footer) -->
+
+            <!-- Footer (Dynamic Panel) -->
+            <div id="u149" class="ax_dynamic_panel" data-label="Footer">
+              <div id="u149_state0" class="panel_state" data-label="State1">
+
+                <!-- Unnamed (Shape) -->
+                <div id="u150" class="ax_shape">
+                  <img id="u150_img" class="img " src="images/home-_select_a_store/u156.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u151" class="text"></div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u152" class="ax_shape">
+                  <img id="u152_img" class="img " src="resources/images/transparent.gif"/>
+                  <!-- Unnamed () -->
+                  <div id="u153" class="text">
+                    <p><span>Connect with us:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u154" class="ax_shape">
+                  <img id="u154_img" class="img " src="resources/images/transparent.gif"/>
+                  <!-- Unnamed () -->
+                  <div id="u155" class="text">
+                    <p><span>PRIVACY</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u156" class="ax_shape">
+                  <img id="u156_img" class="img " src="resources/images/transparent.gif"/>
+                  <!-- Unnamed () -->
+                  <div id="u157" class="text">
+                    <p><span>TERMS</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Image) -->
+                <div id="u158" class="ax_image">
+                  <img id="u158_img" class="img " src="images/home-_select_a_store/u164.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u159" class="text"></div>
+                </div>
+
+                <!-- Unnamed (Horizontal Line) -->
+                <div id="u160" class="ax_horizontal_line">
+                  <img id="u160_start" class="img " src="resources/images/transparent.gif" alt="u160_start"/>
+                  <img id="u160_end" class="img " src="resources/images/transparent.gif" alt="u160_end"/>
+                  <img id="u160_line" class="img " src="images/home-_select_a_store/u166_line.png" alt="u160_line"/>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u161" class="ax_shape">
+                  <img id="u161_img" class="img " src="resources/images/transparent.gif"/>
+                  <!-- Unnamed () -->
+                  <div id="u162" class="text">
+                    <p><span>CONTACT US</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u163" class="ax_shape">
+              <img id="u163_img" class="img " src="images/shopping_list-_this_week_s_list/u163.png"/>
+              <!-- Unnamed () -->
+              <div id="u164" class="text"></div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u165" class="ax_shape">
+              <img id="u165_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u166" class="text">
+                <p><span style="text-decoration:underline;">+ Add</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u167" class="ax_horizontal_line">
+              <img id="u167_start" class="img " src="resources/images/transparent.gif" alt="u167_start"/>
+              <img id="u167_end" class="img " src="resources/images/transparent.gif" alt="u167_end"/>
+              <img id="u167_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u167_line"/>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u168" class="ax_horizontal_line">
+              <img id="u168_start" class="img " src="resources/images/transparent.gif" alt="u168_start"/>
+              <img id="u168_end" class="img " src="resources/images/transparent.gif" alt="u168_end"/>
+              <img id="u168_line" class="img " src="images/shopping_list-_home/u139_line.png" alt="u168_line"/>
+            </div>
+
+            <!-- Unnamed (Text Field) -->
+            <div id="u169" class="ax_text_field">
+              <input id="u169_input" type="text" value="enter text..."/>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u170" class="ax_shape">
+          <img id="u170_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u171" class="text">
+            <p><span style="text-decoration:underline;">Email This List</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
